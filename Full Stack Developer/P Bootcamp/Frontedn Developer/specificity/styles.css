@@ -1,0 +1,8 @@
+#name{
+    color:saddlebrown
+}
+
+.name:hover{
+    color:sandybrown
+}
+/*this dosent work because class is less specific than the id.

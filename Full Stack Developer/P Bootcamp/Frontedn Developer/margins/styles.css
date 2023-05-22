@@ -1,0 +1,18 @@
+body{
+    background: papayawhip;
+}
+
+div{
+    color: brown;
+    width: 300px;
+    height: 150px;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 1px solid hotpink;
+    margin: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}

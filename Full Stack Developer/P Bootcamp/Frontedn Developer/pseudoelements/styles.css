@@ -1,0 +1,28 @@
+p::first-letter{
+    color:teal;
+}
+
+p::before{
+    content:"👌";
+}
+
+p::after{
+    content:"👍";
+}
+
+h1{
+    color: green;
+}
+
+h1:hover{
+    color: red;
+}
+
+
+div p:nth-child(3){
+    color: blue;
+}
+
+::placeholder{
+    color:blue;
+}

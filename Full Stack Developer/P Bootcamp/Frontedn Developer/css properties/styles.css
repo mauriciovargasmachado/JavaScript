@@ -1,0 +1,28 @@
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card{
+    width: 300px;
+    height: 300px;
+    background: #00308F;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card img{
+
+    width: 50%;
+    margin-left: 75px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.card p{
+    color: aliceblue;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+html{
+    font-size: 62.5;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    width: 20rem;
+    height: 20rem;
+    background-color: beige;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+@media (min-width:300px) {
+    div{
+        background-color: brown;
+    }
+}
+
+@media (max-width:280px) {
+    div{
+        background-color: blue;
+    }
+}

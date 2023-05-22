@@ -1,0 +1,24 @@
+div{background:#fff;}
+
+.title{
+    color:blueviolet
+}
+
+#title_2{
+    color:brown;
+}
+
+a{
+    color:red;
+}
+
+*{
+    background: papayawhip;
+}
+div p{
+    color:lime
+}
+
+div ~ div{
+    background: plum;
+}

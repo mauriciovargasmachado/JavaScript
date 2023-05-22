@@ -1,0 +1,117 @@
+
+body{margin:0;
+    text-align:center;
+    font-family:sans-serif,helvetica,Arial, Helvetica,'sacramento';
+}
+
+h1{font-family: 'sacramento';
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #66bfbf;}
+
+h2{color: #11999E;
+    font-weight: normal;
+font-size: 4rem;}
+
+h3{color: #66bfbf;
+    font-size: 2rem;}
+
+.my_title{
+    font-size: 1.5rem;
+}
+
+.mountain{
+    height: 200px;
+    width: 400px;
+}
+
+.top_container{background-color:#E4F9F5;
+    position:relative;
+    padding-top: 100px;
+}
+
+.middle_container{
+    
+}
+
+.botton_container{
+    padding-top: 30px;
+    background-color: #66bfbf;
+}
+
+
+.skills{
+    width: 50%;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.top_cloud{
+    position: absolute;
+    right: 300px;
+    margin-top: 0px;
+}
+
+.botton_cloud{
+    position: absolute;
+    left: 300px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+hr{background-color: white;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #6096b4;
+    border-width: 5px;
+    height: 0px;
+    width: 5%;}
+
+.my_photo_1{height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    }
+
+.my_photo_2{height: 150px;
+        width: 150px;
+        float: right;
+        margin-left: 30px;
+        }
+
+.my_photo_3{height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 30px;
+            }
+
+.my_photo_4{height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+    }
+
+.touch{
+    color: #11999E;
+    margin: 10px;
+}
+
+.contact{
+    color: #11999E;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.contact:hover{
+    color: #EAf6f6;
+    font-size: 2.1rem;
+}
+
+.credits{
+    color: #EAf6f6;
+}
+    

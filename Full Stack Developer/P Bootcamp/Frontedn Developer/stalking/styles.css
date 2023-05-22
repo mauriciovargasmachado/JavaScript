@@ -1,0 +1,33 @@
+div{
+    position: absolute;
+    background: papayawhip;
+}
+.one{
+    z-index: 3;
+}
+
+.two{
+    z-index: 2;
+}
+
+.tree{
+    z-index: 1;
+}
+
+.red{
+    background: red;
+    width: 50px;
+    height: 50px;
+}
+
+.blue{
+    background: red;
+    width: 50px;
+    height: 50px;
+}
+
+.yellow{
+    background: red;
+    width: 50px;
+    height: 50px;
+}

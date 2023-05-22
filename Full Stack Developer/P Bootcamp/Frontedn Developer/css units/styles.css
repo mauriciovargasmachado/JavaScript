@@ -1,0 +1,28 @@
+html{
+    font-size: 62.5;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background: brown;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.container{
+    width: 20vw;
+    height: 20vh;
+    background: purple;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+
+}

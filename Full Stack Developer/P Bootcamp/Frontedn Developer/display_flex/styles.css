@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    background: papayawhip;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    /*flex-direction: column;*/
+
+}
+
+.item{
+    width: 30px;
+    height: 30px;
+    background: skyblue;
+}
+
+.container .item:nth-child(2n+1){
+    background: springgreen;
+}
