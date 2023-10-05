@@ -1,0 +1,31 @@
+<script>
+
+    var coleccionDiscos = {
+        7853:{
+            tituloAlbum: "Bee Gees Greatest",
+            artista: "Bee Gees",
+            canciones: ['Staying alive']
+        },
+        5439:{
+            tituloAlbum: "ColdPlay Best"
+        }
+    };
+
+    function actualizar(discos, id, propiedad, valor) {
+        if (valor === "") {
+            delete discos[id][propiedad];
+        } else if (propiedad === "canciones") {
+            discos[id][propiedad] = discos[id][propiedad] || [];
+            discos[id][propiedad].push(valor);
+        } else {
+            discos[id][propiedad] = valor;
+        }
+    }
+
+    console.log(coleccionDiscos['5439'].tituloAlbum);
+
+    actualizar(coleccionDiscos,5439,'tituloAlbum',"Mama mia");
+
+    console.log(coleccionDiscos['5439'].tituloAlbum);
+
+</script>

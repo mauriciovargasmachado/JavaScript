@@ -1,0 +1,66 @@
+h2{
+    color: blue;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    color: green;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color: purple;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    color: blue;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* img{
+    width: 300px;
+    border-width: 5px;
+    border-color: blue;
+    border-style:solid;
+    border-radius: 50%; 
+  } */
+
+div{
+    background-color: silver;
+}
+
+#listaUno{
+    color: blueviolet;
+}
+
+.fotoGato{
+    background-color: crimson;
+
+}
+
+.gato{
+    background-color: yellow;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    padding: 15px;
+    margin: 10px;
+}
+
+input[type="radio"]{
+    margin:10px;
+}
+
+input[type="checkbox"]{
+    margin:10px;
+}
+

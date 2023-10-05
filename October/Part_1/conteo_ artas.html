@@ -1,0 +1,44 @@
+<script>
+
+var conteo = 0;
+
+function contar_cartas(carta){
+    
+    var decision =0;
+    
+    switch(carta){
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+            conteo++;
+            break
+        case 10:
+        case 'J':
+        case 'Q':
+        case 'K':
+        case 'A':
+            conteo--;
+            break
+    }
+    if (conteo >0){
+        decision = "Usted debe apostar"
+    }else{
+        decision = 'usted debe esperar'
+    }
+
+    return (conteo + ' '+ decision)
+
+}
+
+
+
+console.log(contar_cartas(2))
+console.log(contar_cartas(3))
+console.log(contar_cartas(7))
+console.log(contar_cartas('K'))
+console.log(contar_cartas('A'))
+
+
+</script>
