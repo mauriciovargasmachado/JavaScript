@@ -34,3 +34,23 @@ cambiarFondoAceitunas.style.backgroundColor = 'blue';
 cambiarFondoAceitunas.style.textTransform = 'upperCase';
 cambiarFondoAceitunas.style.color = '#6dff00';
 console.log(cambiarFondoAceitunas.style);
+
+const listaToppings = document.getElementById("lista-toppings");
+console.log(listaToppings);
+console.log(listaToppings.innerText);
+console.log(listaToppings.textContent);
+
+const titulo_1 = document.getElementById('titulo');
+titulo_1.innerText = "This is a change in the title!"
+titulo_1.setAttribute('href',"www.google.com");
+
+const nuevoTopping = document.createElement('li');
+nuevoTopping.classList.add('topping','fondo-naranja');
+nuevoTopping.innerHTML='Acelgas';
+listaToppings.append(nuevoTopping);
+
+
+
+
+
+
