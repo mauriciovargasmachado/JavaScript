@@ -1,0 +1,11 @@
+{
+    "Titulo":"Aprendiendo Node.js",
+    "Numero_Horas":180,
+    "Numero de cursos":1,
+    "temas":[
+        "JavaScript",
+        "Node.js"
+    ],
+    "Es_Publico":"No"
+
+}
