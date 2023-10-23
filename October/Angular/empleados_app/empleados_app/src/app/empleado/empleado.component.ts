@@ -10,7 +10,9 @@ export class EmpleadoComponent {
   nombre ='Juan';
   apellido ='Diaz';
   private edad=28;
-  //empresa='Refricarga'
+  empresa='Google';
+
+
 
   getEdad(){
     return this.edad;
@@ -22,7 +24,7 @@ export class EmpleadoComponent {
 
   habilitacionInput = false;
   usuarioRegistrado = false;
-  textoRegistro = "No hay nadie registrado"
+  textoRegistro = "No hay nadie registrado";
  
 
   getUsuarioRegistrado(){

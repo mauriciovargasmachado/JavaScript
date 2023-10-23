@@ -1,13 +1,15 @@
 <p>nombre: {{nombre}}</p>
 <p>apellido: {{apellido}}</p>
 <p>edad: {{getEdad()<18? "Menor de edad":'Mayor de edad.'}}</p>
-<p>empresa: {{empresa.value}}</p>
-Introduce el nombre de la empresa: <input type="text" #empresa (keyup)="0" [disabled]="habilitacionInput">
+<p>empresa: {{empresa}}</p>
+<!--Introduce el nombre de la empresa: <input type="text" #empresa (keyup)="0" [disabled]="habilitacionInput">!-->
+Introduce el nombre de la empresa: <input type="text" [(ngModel)]="empresa">
+
 
 <br>
 <br>
 
-<input type="button" value="Aceptar" (click)="accionEmpresa(empresa.value)">
+<!--<input type="button" value="Aceptar" (click)="accionEmpresa(empresa)">!-->
 
 <br>
 <br>
