@@ -35,6 +35,6 @@ inputVerde.addEventListener('change',(e)=> {
 
 inputAzul.addEventListener('change',(e)=> {
     azul = e.target.value;
-    textoRojo.innerText = azul;
+    textoAzul.innerText = azul;
     colorUpdate(rojo,verde,azul);
 })
