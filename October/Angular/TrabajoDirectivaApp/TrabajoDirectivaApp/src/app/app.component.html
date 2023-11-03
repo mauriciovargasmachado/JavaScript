@@ -2,14 +2,17 @@
 
 <form>
 
-  <input type="text" name="nombre" [(ngModel)]="nombre"><br>
-  <input type="text" name="apellido" [(ngModel)]="apellido"><br><br>
+  <input type="text" name="nombre" [(ngModel)]="nombre" ><br>
+  <input type="text" name="apellido" [(ngModel)]="apellido" ><br>
+  <input type="text" name="cargo" [(ngModel)]="cargo"><br><br>
   <input type="submit" name="nombre" value="Registrarse" (click)="registrarUsuario()">
 
 </form>
 <br>
 <br>
-<p *ngIf="registrado; else sinRegistrar">{{mensaje}}</p>
+<p *ngIf="registrado; else sinRegistrar" [ngStyle]="{color: cargo=='gerente'? 'blue': 'black'}">{{mensaje}}</p>
+
+<p *ngIf="registrado; else sinRegistrar" [ngClass]="{'directores':cargo!='gerente'}">{{mensaje}}</p>
 
 <ng-template #sinRegistrar>
 
