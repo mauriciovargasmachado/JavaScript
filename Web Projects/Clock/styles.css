@@ -1,0 +1,22 @@
+*{
+    color: white;
+    background-color: black;
+    font-family: 'Kode Mono', Courier, monospace;
+    text-align: center;
+}
+
+
+h6{
+    margin-top: 10%;
+    font-size: 2rem;
+}
+
+h1{
+    margin-top: 5%;
+    font-size: 7rem;
+}
+
+h2{
+    margin-top: 20%;
+    font-size: 1rem;
+}

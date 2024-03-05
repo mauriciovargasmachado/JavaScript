@@ -1,0 +1,32 @@
+*{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.container {
+    display: flex;
+    margin-left: 650px;
+    margin-left: 500px;
+    
+}
+
+.container img {
+    margin-right: 10px; 
+    width: 29%;
+    border-radius: 10%;
+}
+
+.container p {
+
+    width: 30%;
+    text-align: justify; 
+    margin-top: 130px;
+}
+.div-center{
+    text-align: center;
+}
+
+.subrallado{
+    text-decoration: underline;
+}

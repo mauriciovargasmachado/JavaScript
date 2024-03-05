@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body onload="startClock()">
+
+    <h6 id="currentDate"></h>
+
+    <h1 id="currentClock">00:00:00</h1>
+
+    <h2>MVM</h2>
+
+    <script>
+
+        let textoFechaActual = document.getElementById('currentDate');
+        let textoHoraActual = document.getElementById('currentClock');
+
+        function startClock(){
+            setInterval(ticTac,1000)
+        }
+
+        function ticTac(){
+            let currentTime = new Date();
+            let day = currentTime.getDate();
+            let month = currentTime.getMonth();
+            let year = currentTime.getFullYear();
+            let hours = currentTime.getHours();
+            let minutes = currentTime.getMinutes();
+            let seconds = currentTime.getSeconds();
+
+            let textHora = hours + ":" + minutes + ":" + seconds;
+            
+            textoHoraActual.textContent = textHora;
+
+            let textFecha = day + " of " + (month+1) + " of " + year;
+            
+            textoFechaActual.textContent = textFecha;
+
+        }
+
+    </script>
+
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+*{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.container {
+    display: flex;
+    
+}
+
+.container img {
+    margin-right: 10px; 
+    width: 15%;
+}
+
+.container p {
+    width: 20%;
+    text-align: justify; 
+    margin-top: 0;
+}

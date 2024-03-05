@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Set your Timer</h1>
+
+    <h2>Please set the amount of seconds for your alarm!</h2>
+    <input value='0' type="number" id="numberOfSeconds"><br>
+    <div>
+        <button onclick="startTimer()">Start</button>
+        <button onclick="clearTimer()">Clear</button>
+    </div>
+    <audio id="sound" src="alarma.mp3" type="audio/mpeg"></audio>
+    <h3 id="done"></h3>
+
+    <script>
+        let secondsElement = document.getElementById('numberOfSeconds');
+        let intervalId;
+        let alarmSound = document.getElementById('sound');
+
+        function startTimer(){
+            let seconds = secondsElement.value;
+            intervalId = setInterval(function() {
+                seconds--;
+
+                if (seconds >= 0) {
+                    secondsElement.value = seconds;
+                }
+
+                if (seconds === 0) {
+                    clearInterval(intervalId);
+                    timeDone();
+                }
+            }, 1000);
+        }
+
+        function timeDone(){
+            document.getElementById('done').innerText = "ALARM!!!";
+            if (alarmSound) {
+                alarmSound.play();
+            }
+
+        }
+
+        function clearTimer(){
+            clearInterval(intervalId);
+            document.getElementById('done').innerText = "";
+            document.getElementById('numberOfSeconds').value = 0;
+            if (alarmSound) {
+                alarmSound.pause();
+                alarmSound.currentTime = 0;
+            }
+        }
+    </script>
+    
+</body>
+</html>
