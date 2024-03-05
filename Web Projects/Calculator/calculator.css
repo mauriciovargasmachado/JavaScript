@@ -1,0 +1,50 @@
+*{
+    font-family: 'Inter', Courier, monospace;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-color: white;
+
+}
+
+input{
+    height: 20px;
+    width: 80px;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    color: black;
+}
+
+button{
+    height: 35px;
+    width: 42px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.top_buttons button{
+    height: 35px;
+    width: 88px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.bottom_buttons button{
+    height: 35px;
+    width: 88px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#result{
+    width: 260px;
+}
+
+#clear{
+    height: 35px;
+    width: 182px;
+    font-size: 1rem;
+    font-weight: bold;
+}

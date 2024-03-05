@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="calculator.js"></script>
+</head>
+<body>
+
+    <h1>Calculator</h1>
+    <input type="text" id="value_1">
+    <input type="text" id="value_2">
+    <br>
+    <br>
+    <button onclick="add()">+</button>
+    <button onclick="subs()">-</button>
+    <button onclick="mult()">*</button>
+    <button onclick="div()">/</button>
+    <br>
+
+    <div class="top_buttons">
+        <button onclick="root()">SQR</button>
+        <button onclick="pow()">^</button>
+        <br>
+        <button onclick="abs()">ABS</button>
+        <button onclick="aleatory()">Random</button>
+        <br>
+        <button onclick="clearResult()" id="clear">CLEAR</button>
+    </div>
+    <h3>RESULT: </h3>
+    <input type="text" id="result">
+    <br>
+    <br>
+    <div class="bottom_buttons">
+        <button onclick="redondeo()">Round</button>
+        <button onclick="floor()">Floor</button>
+        <button onclick="ceil()">Ceil</button>
+    </div>
+    
+</body>
+</html>
