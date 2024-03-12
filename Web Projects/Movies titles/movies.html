@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies titles</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h1>Welcome to the recomendation movies center!</h1>
+    <br>
+    <p>Please type your age to waranty an excelente selection:</p>
+    <input id="user_age">
+    <br>
+    <br>
+    <button onclick ="sugestion('drama')" id="button_drama">Drama</button>
+    <button onclick ="sugestion('comedy')" id="button_comedy">Comedy</button>
+    <button onclick ="sugestion('terror')" id="button_terror">Terror</button>
+    <button onclick ="sugestion('crime')" id="button_Crime">Crime</button>
+    <Br>
+    <h2>We sugest the folowing movie: </h2>
+    <h2 id="sugested_movie"></h2>
+    
+</body>
+</html>
